@@ -1,0 +1,18 @@
+2026-10-08 12:03:47.971932-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM LIVRO LIVRO [*]LIVRO"; SQL statement:
+SELECT * FROM LIVRO LIVRO LIVRO [42000-240]
+2026-10-08 12:08:42.218927-04:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO LIVRO ([*]'TITULO', 'AUTOR', 'ANO_PUBLICACAO') VALUES ('Engenharia de Software', 'Ian Sommerville', 2019)"; expected "identifier"; SQL statement:
+INSERT INTO LIVRO ('TITULO', 'AUTOR', 'ANO_PUBLICACAO') VALUES ('Engenharia de Software', 'Ian Sommerville', 2019) [42001-240]
+2026-10-08 12:08:42.220927-04:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO LIVRO ([*]'TITULO', 'AUTOR', 'ANO_PUBLICACAO') VALUES ('Código Limpo', 'Robert C. Martin', 2009)"; expected "identifier"; SQL statement:
+INSERT INTO LIVRO ('TITULO', 'AUTOR', 'ANO_PUBLICACAO') VALUES ('Código Limpo', 'Robert C. Martin', 2009) [42001-240]
+2026-10-08 12:08:43.803822-04:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO LIVRO ([*]'TITULO', 'AUTOR', 'ANO_PUBLICACAO') VALUES ('Sapiens - Uma Breve História da Humanidade', 'Yuval Noah Harari', 2015)"; expected "identifier"; SQL statement:
+INSERT INTO LIVRO ('TITULO', 'AUTOR', 'ANO_PUBLICACAO') VALUES ('Sapiens - Uma Breve História da Humanidade', 'Yuval Noah Harari', 2015) [42001-240]
+2026-10-08 12:10:49.883892-04:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]LIVRO"; SQL statement:
+LIVRO [42000-240]
+2026-10-08 12:10:52.794417-04:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]LIVRO"; SQL statement:
+LIVRO [42000-240]
