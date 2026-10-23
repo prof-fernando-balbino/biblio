@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "AcervoApplication",
+      "request": "launch",
+      "mainClass": "edu.ifms.acervo.AcervoApplication",
+      "projectName": "acervo",
+      "cwd": "${workspaceFolder}/acervo"
+    },
+    {
+      "type": "java",
+      "name": "LeitorApplication",
+      "request": "launch",
+      "mainClass": "edu.ifms.leitor.LeitorApplication",
+      "projectName": "leitor",
+      "cwd": "${workspaceFolder}/leitor"
+    }
+  ]
+}
