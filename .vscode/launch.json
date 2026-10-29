@@ -22,6 +22,14 @@
       "mainClass": "edu.ifms.leitor.LeitorApplication",
       "projectName": "leitor",
       "cwd": "${workspaceFolder}/leitor"
+    },
+    {
+      "type": "java",
+      "name": "EmprestimoApplication",
+      "request": "launch",
+      "mainClass": "edu.ifms.emprestimo.EmprestimoApplication",
+      "projectName": "emprestimo",
+      "cwd": "${workspaceFolder}/emprestimo"
     }
   ]
 }
