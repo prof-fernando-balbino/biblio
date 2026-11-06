@@ -1,10 +1,10 @@
-package edu.ifms.biblio;
+package edu.ifms.acervo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BiblioApplicationTests {
+class AcervoApplicationTests {
 
 	@Test
 	void contextLoads() {
